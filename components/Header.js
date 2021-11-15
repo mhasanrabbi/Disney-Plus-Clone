@@ -25,7 +25,7 @@ function Header() {
       />
       {session && (
         <div className='hidden ml-10 md:flex items-center space-x-6'>
-          <a className='header-link group'>
+          <a href='/' className='header-link group'>
             <HomeIcon className='h-4' />
             <span className='span'>Home</span>
           </a>
