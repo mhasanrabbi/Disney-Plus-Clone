@@ -4,9 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
-        home: "url('/images/background.png)",
-      }),
+      backgroundImage: {
+        home: "url('/images/background.png')",
+      },
     },
     fontFamily: {
       body: ['Montserrat', 'sans-serif'],
